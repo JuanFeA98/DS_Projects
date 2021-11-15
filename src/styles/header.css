@@ -1,0 +1,39 @@
+.Header{
+    width: 100%;
+    height: 60px;
+    background: rgb(13, 2, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header h1{
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+
+.Header ul{
+    margin-right: 20px;
+    display: flex;
+}
+
+.Header ul li{
+    list-style: none;
+    border: 1.5px solid white;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.Header ul li:hover{
+    background: white;
+    color: #0d0231;
+    cursor: pointer;
+}
+
+.Header ul a{
+    color: white;
+}
