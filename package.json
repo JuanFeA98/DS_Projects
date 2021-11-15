@@ -1,0 +1,22 @@
+{
+  "name": "titanic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Titanic",
+  "author": "JuanFe",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.1.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
