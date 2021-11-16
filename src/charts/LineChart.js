@@ -17,8 +17,6 @@ export default function Chart1() {
             .style('background', 'white')
             .style('margin', '30px')
             .style('border', '0px')
-            // .style('border-radius', '10px')
-            .style('box-shadow', '0px 0px 5px black')
             .style('overflow', 'visible');
         
         // Setting the scaling
@@ -33,7 +31,6 @@ export default function Chart1() {
         const generateScaledLine = d3.line()
             .x((d, i) => xScale(i))
             .y(yScale)
-            .curve(d3.curveCardinal);
 
         // Setting the axes
         const xAxis = d3.axisBottom(xScale)

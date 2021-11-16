@@ -1,8 +1,10 @@
 import * as React from "react"
-import Chart1 from "../components/Chart1.js"
 
 import Header from '../components/Header.js'
 import Main from '../components/Main.js'
+
+import LineChart from "../charts/LineChart.js"
+import BarChart from "../charts/BarChart.js"
 
 import '../styles/index.css'
 
@@ -12,7 +14,10 @@ const IndexPage = () => {
     <main>
       <Header/>
       <Main/>
-      <Chart1/>
+      <section className="Graphs">
+        <LineChart/>
+        <BarChart/>
+      </section>
     </main>
   )
 }
