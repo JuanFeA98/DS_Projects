@@ -1,4 +1,5 @@
 import * as React from "react"
+import Chart1 from "../components/Chart1.js"
 
 import Header from '../components/Header.js'
 import Main from '../components/Main.js'
@@ -11,6 +12,7 @@ const IndexPage = () => {
     <main>
       <Header/>
       <Main/>
+      <Chart1/>
     </main>
   )
 }
