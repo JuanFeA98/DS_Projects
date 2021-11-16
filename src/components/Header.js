@@ -2,12 +2,17 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import '../styles/header.css'
+import Logo from '../images/logo.png'
 
 export default function Header() {
+
     return (
         <div className='Header'>
-            <Link>
-                <h1>DS Projects</h1>
+            <Link to='https://www.google.com'>
+                <div className="Title">
+                    <img src={Logo} alt="" />
+                    <h1>DS Projects</h1>
+                </div>
             </Link>
             <Link>
                 <ul>
