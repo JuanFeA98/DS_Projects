@@ -14,11 +14,11 @@ const IndexPage = () => {
   return (
     <main>
       <Header/>
-      {/* <Main/> */}
-      {/* <section className="Graphs"> */}
-        {/* <LineChart/> */}
-        {/* <BarChart/> */}
-      {/* </section> */}
+      <Main/>
+      <section className="Graphs">
+        <LineChart/>
+        <BarChart/>
+      </section>
       <Test/>
     </main>
   )
