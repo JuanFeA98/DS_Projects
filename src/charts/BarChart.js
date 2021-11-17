@@ -18,7 +18,8 @@ export default function BarChart() {
             .style('border', '0px')
             .style('overflow', 'visible');
 
-
+    // Scale
+        // const xScale = d3.scaleLinear()
 
 
     }, [data])
